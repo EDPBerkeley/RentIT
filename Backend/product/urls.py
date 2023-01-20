@@ -14,7 +14,7 @@ Second arg is function
 Third arg is route name
 """
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', ProductView.index, name='index'),
     path('get_all/', ProductView.as_view({'get': 'get_all'})),
     path('get_product/<str:uuid>/', ProductView.as_view({'get': 'get_product'}), name='myname')
 ]
