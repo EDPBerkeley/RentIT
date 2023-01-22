@@ -12,6 +12,5 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = (
             'description',
             'pub_date',
-            'price',
-            'uuid'
+            'price'
         )

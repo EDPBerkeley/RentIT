@@ -1,4 +1,4 @@
-
+import uuid
 
 from django.db import models
 from .utils import create_uuid
@@ -30,7 +30,7 @@ class Product(models.Model):
     description = models.CharField(max_length=200)
     pub_date = models.DateTimeField("date published")
     price = models.DecimalField(max_digits=4, decimal_places=2)
-    uuid = models.CharField(default=create_uuid, unique=True, max_length=6)
+    # temp_uuid = models.UUIDField(default=uuid.uuid4, primary_key=True)
 
 
     def __str__(self):
