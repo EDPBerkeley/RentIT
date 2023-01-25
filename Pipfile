@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 shortuuid = "*"
 psycopg2-binary = "*"
+awsebcli = "*"
 
 [dev-packages]
 
