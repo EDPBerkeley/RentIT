@@ -1,12 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6d634bc3372afcf242b585560065c31c291f567c2cae46ff61cfaa770243ada6"
+            "sha256": "69a898e8b2c9a096b7a9fd82dcd609bfe35f261a57621d6cdd4d3a3775fa3149"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_full_version": "3.7.13",
-            "python_version": "3.7"
+            "python_full_version": "3.7.13"
         },
         "sources": [
             {
@@ -238,7 +237,6 @@
             "version": "==3.14.0"
         },
         "docker": {
-            "extras": [],
             "hashes": [
                 "sha256:d3393c878f575d3a9ca3b94471a3c89a6d960b35feb92f033c0de36cc9d934db",
                 "sha256:f3607d5695be025fa405a12aca2e5df702a57db63790c73b927eb6a94aac60af"
@@ -526,11 +524,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:6f590d76b713d5de4e49fe4fbca24474469f53c83632d5d0fd056f7ff7e8112b",
-                "sha256:ac4008d396bc9cd983ea483cb7139c0240a07bbc74ffb6232fceffedc6cf03a8"
+                "sha256:a7687c12b444eaac951ea87a9627c4f904ac757e7abdc5aac32833234af90378",
+                "sha256:e261cdf010c11a41cb5cb5f1bf3338a7433832029f559a6a7614bd42a967c300"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==66.1.1"
+            "version": "==67.1.0"
         },
         "shortuuid": {
             "hashes": [
