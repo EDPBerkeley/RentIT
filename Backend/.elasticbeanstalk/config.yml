@@ -1,0 +1,18 @@
+branch-defaults:
+  edp_deploy_to_aws:
+    environment: rentit-app-env
+    group_suffix: null
+global:
+  application_name: RentIT
+  branch: null
+  default_ec2_keyname: edp_rentit
+  default_platform: Python 3.7 running on 64bit Amazon Linux 2
+  default_region: us-west-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
