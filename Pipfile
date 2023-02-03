@@ -53,5 +53,4 @@ zipp = "==3.11.0"
 [dev-packages]
 
 [requires]
-python_full_version = "3.7.13"
 python_version = "3.7.13"
